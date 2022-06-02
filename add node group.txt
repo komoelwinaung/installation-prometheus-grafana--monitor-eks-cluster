@@ -1,0 +1,11 @@
+eksctl scale nodegroup worker-group-1 -f cluster.yaml
+
+
+eksctl create cluster -f cluser.yaml
+
+eksctl delete nodegroup \
+  --cluster test2 \
+  --region ap-southeast-1 \
+  --name worker-group-1
+
+eksctl delete cluster test2

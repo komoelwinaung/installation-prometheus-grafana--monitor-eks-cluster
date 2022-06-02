@@ -1,0 +1,3 @@
+https://github.com/collabnix/kubelabs/blob/master/pods101/pods01.yaml
+
+https://github.com/techwarlock260/AWS-EKS-cluster-video
